@@ -1,6 +1,4 @@
-# Exam #2: "Airplane Seats"
-
-## Student: s308270 LISENA GIUSEPPE
+# "Airplane Seats"
 
 ## React Client Application Routes
 
