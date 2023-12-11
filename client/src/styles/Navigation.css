@@ -1,0 +1,21 @@
+.navbar {
+  height: 80px;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav-icon {
+  margin: 1rem;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.nav-btn {
+  border-width: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  align-self: center;
+}

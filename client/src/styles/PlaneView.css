@@ -1,0 +1,74 @@
+.seats-grid {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  display: flex;
+  width: fit-content;
+  justify-content: flex-end;
+}
+
+.grid-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  gap: 15px;
+}
+
+.seat-row {
+  display: flex;
+  gap: 40px;
+}
+
+.seat {
+  font-size: 10px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 13px 13px 2px 2px;
+  border-bottom: 4px solid black;
+}
+
+.plane-border {
+  background-color: #f2f2f2;
+  background-color: solid;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 60px 20px 30px 20px;
+  border-radius: 140px 140px 10px 10px;
+  z-index: 2;
+}
+
+.loading-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  padding-bottom: 30px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.line-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.plane-title {
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.abort-alert {
+  z-index: 4;
+  position: fixed;
+}

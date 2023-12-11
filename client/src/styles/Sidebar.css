@@ -1,0 +1,145 @@
+.left-sidebar {
+  height: 100vh;
+  position: fixed;
+  width: 330px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+.sidebar-title {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sidebar-seats {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  
+}
+
+.separator {
+  border-top: 2px solid black;
+  margin: 40px 10px 30px 20px;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+.custom-button.available {
+  background-color: #0b5ed7;
+}
+
+.custom-button.occupied {
+  background-color: #ff0000;
+}
+
+.custom-button.reserved {
+  background-color: #ffee00;
+}
+
+.seat-legend {
+  width: 40px;
+  height: 40px;
+  border-radius: 13px 13px 2px 2px;
+}
+
+.seat-type {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.legend-cont {
+  display: flex;
+  padding-top: 35px;
+  padding-left: 20px;
+  gap: 10px;
+}
+
+.reservation-form {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation-form h1 {
+  font-size: 25px;
+}
+
+.reservation-form form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation-form button {
+  margin-top: 22px;
+  align-self: center;
+}
+
+.reservation-form label {
+  font-weight: bold;
+}
+
+.form-label {
+  font-size: 15px;
+}
+
+.reservation-form input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 2px solid gray;
+}
+
+.reservation-form input,
+.reservation-form select {
+  margin-bottom: 10px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+}
+
+.form-group {
+  margin-right: 10px;
+}
+
+.log-container,
+.already-booked {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  padding-right: 33px;
+  gap: 10px;
+}
+
+.conf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 33px;
+  padding-top: 10px;
+  gap: 15px;
+  width: 330px;
+}
+
+.conf-button {
+  height: fit-content;
+  width: 100px;
+}
+
+h2 {
+  font-size: 15px;
+}
